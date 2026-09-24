@@ -4,7 +4,7 @@ import React from "react";
 
 const Button = ({ type = "button", className, onClick, variant = "default", children }) => {
 
-  const buttonClassName = `flex items-center gap-1 bg-indigo-600 text-white px-3 py-1.5 rounded hover:bg-indigo-700 text-sm font-medium`;
+  const buttonClassName = `flex items-center gap-1 bg-indigo-600 text-white px-3 py-1.5 rounded hover:bg-indigo-700 text-sm font-medium cursor-pointer`;
 
   return (
     <button
